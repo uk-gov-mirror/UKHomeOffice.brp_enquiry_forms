@@ -122,5 +122,15 @@
   },
   "application-type-other": {
     "label": "Describe the application type"
+  },
+  "contact-details": {
+    "options": {
+      "email": {
+        "label": "Email address"
+      },
+      "no-email": {
+        "label": "I don't have an email address"
+      }
+    }
   }
 }

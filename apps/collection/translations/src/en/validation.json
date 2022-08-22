@@ -64,5 +64,8 @@
   },
   "application-type-other": {
     "required": "Please describe the application type"
+  },
+  "contact-details": {
+    "required": "Please select an option"
   }
 }
