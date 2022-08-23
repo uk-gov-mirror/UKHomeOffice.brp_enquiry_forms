@@ -1,4 +1,5 @@
 @feature @correct_mistakes
+@feature @correct_mistakes
 Feature: A user should access the correct mistakes service and be able to log an issue
 
   @in_uk
@@ -27,6 +28,7 @@ Feature: A user should access the correct mistakes service and be able to log an
     Then I check 'application-type-work'
     Then I select 'Continue'
     Then I should be on the 'contact-details' page showing 'How should we contact you about your BRP?'
+    Then I check 'contact-details-email'
     Then I fill 'email' with 'test@dtest.testemail'
     Then I select 'Continue'
     Then I should be on the 'confirm' page showing 'Check the details you have provided'
@@ -62,6 +64,7 @@ Feature: A user should access the correct mistakes service and be able to log an
     Then I check 'application-type-work'
     Then I select 'Continue'
     Then I should be on the 'contact-details' page showing 'How should we contact you about your BRP?'
+    Then I check 'contact-details-email'
     Then I fill 'email' with 'christopher.medland@digital.homeoffice.gov.uk'
     Then I select 'Continue'
     Then I should be on the 'confirm' page showing 'Check the details you have provided'
@@ -186,6 +189,7 @@ Feature: A user should access the correct mistakes service and be able to log an
       Then I check 'application-type-work'
       Then I select 'Continue'
       Then I should be on the 'contact-details' page showing 'How should we contact you about your BRP?'
+      Then I check 'contact-details-email'
       Then I fill 'email' with 'test@dtest.testemail'
       Then I select 'Continue'
       Then I should be on the 'confirm' page showing 'Check the details you have provided'
